@@ -42,35 +42,4 @@ reg add "HKCR\MSEdgePDF\DefaultIcon" /ve /t REG_SZ /d "C:\Program Files\BraveSof
 reg add "HKCR\MSEdgePDF\shell\open\command" /ve /t REG_SZ /d "\"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe\" --single-argument %%1" /f
 reg add "HKCR\MSEdgePDF\shell\runas\command" /ve /t REG_SZ /d "\"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe\" --do-not-de-elevate --single-argument %%1" /f
 
-echo Installing Custom Software...
-:: Utils
-winget install Microsoft.PowerToys
-winget install Nilesoft.Shell
-winget install Rainmeter.Rainmeter
-winget install ShareX.ShareX
-winget install Stardock.Start11
-winget install VB-Audio.Voicemeeter.Potato
-winget install Nvidia.GeForceExperience
-winget install VideoLAN.VLC
-winget install WinSCP.WinSCP
-winget install Logitech.GHUB
-winget install Microsoft.VisualStudioCode
-winget install Famatech.AdvancedIPScan
-winget install AutoHotkey.AutoHotkey
-winget install Bitwarden.Bitwarden
-winget install Guru3D.Afterburner
-:: Chat
-winget install Discord.Discord
-:: RoundedTB
-winget install 9MTFTXSJ9M7F
-:: Launchers
-winget install Valve.Steam
-winget install EpicGames.EpicGamesLauncher
-winget install ElectronicArts.EADesktop
-winget install PrismLauncher.PrismLauncher
-:: Xbox
-winget install 9MV0B5HZVK9Z
-:: Xbox Insider Hub
-winget install 9PLDPG46G47Z 
-:: Office365
-winget install 9WZDNCRD29V9
+
